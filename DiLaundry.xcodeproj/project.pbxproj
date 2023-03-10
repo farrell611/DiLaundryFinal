@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71124F6C29685A5800DC1234 /* OutfitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71124F6B29685A5800DC1234 /* OutfitTrackerApp.swift */; };
+		71124F7029685A5D00DC1234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71124F6F29685A5D00DC1234 /* Assets.xcassets */; };
+		71124F7329685A5D00DC1234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71124F7229685A5D00DC1234 /* Preview Assets.xcassets */; };
+		71124F7529685A5D00DC1234 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71124F7429685A5D00DC1234 /* Persistence.swift */; };
+		71124F7829685A5D00DC1234 /* DiLaundry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71124F7629685A5D00DC1234 /* DiLaundry.xcdatamodeld */; };
+		71124F7F2968697900DC1234 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71124F7E2968697900DC1234 /* HomepageView.swift */; };
+		714953BC297015B50037A5E0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714953BB297015B50037A5E0 /* AppView.swift */; };
+		714953BE297019490037A5E0 /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714953BD297019490037A5E0 /* HomepageViewModel.swift */; };
+		714953C129702C520037A5E0 /* WardrobeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714953C029702C520037A5E0 /* WardrobeViewModel.swift */; };
+		714953C329702C5F0037A5E0 /* WardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714953C229702C5F0037A5E0 /* WardrobeView.swift */; };
+		71546EE62973F7F8004DA83F /* LaundryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71546EE52973F7F8004DA83F /* LaundryDetailView.swift */; };
+		71546EE82973F803004DA83F /* LaundryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71546EE72973F803004DA83F /* LaundryDetailViewModel.swift */; };
+		7166960829707163000C82E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166960729707163000C82E9 /* ProfileView.swift */; };
+		7166960A29707177000C82E9 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166960929707177000C82E9 /* ProfileViewModel.swift */; };
+		7166960D2971106D000C82E9 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166960C2971106D000C82E9 /* HistoryView.swift */; };
+		7166960F29711079000C82E9 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166960E29711079000C82E9 /* HistoryViewModel.swift */; };
+		7166961229711748000C82E9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166961129711748000C82E9 /* UserModel.swift */; };
+		7166961729713917000C82E9 /* ClothesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166961629713917000C82E9 /* ClothesModel.swift */; };
+		7166961A29713E24000C82E9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166961929713E24000C82E9 /* ImagePicker.swift */; };
+		7166961F29719480000C82E9 /* ClothesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166961E29719480000C82E9 /* ClothesDetailView.swift */; };
+		7166962129719489000C82E9 /* ClothesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166962029719489000C82E9 /* ClothesDetailViewModel.swift */; };
+		716696232971BF65000C82E9 /* LaundryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716696222971BF65000C82E9 /* LaundryModel.swift */; };
+		718DDFC5297C3CEA003CE58A /* ClothesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DDFC4297C3CEA003CE58A /* ClothesAPI.swift */; };
+		718DDFC7297C3E82003CE58A /* APIMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DDFC6297C3E82003CE58A /* APIMiddleware.swift */; };
+		718DDFC9297C49B9003CE58A /* LaundryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DDFC8297C49B9003CE58A /* LaundryAPI.swift */; };
+		718DDFCC297D49A5003CE58A /* AddClothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DDFCB297D49A5003CE58A /* AddClothView.swift */; };
+		718DDFCE297D49AF003CE58A /* AddClothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DDFCD297D49AF003CE58A /* AddClothViewModel.swift */; };
+		71A3D032296ED22C00F611CF /* UserInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3D031296ED22C00F611CF /* UserInformationView.swift */; };
+		71A3D034296ED24400F611CF /* UserInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3D033296ED24400F611CF /* UserInformationViewModel.swift */; };
+		816697D9297FC545004B098B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816697D8297FC545004B098B /* AppViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71124F6829685A5800DC1234 /* DiLaundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiLaundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71124F6B29685A5800DC1234 /* OutfitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitTrackerApp.swift; sourceTree = "<group>"; };
+		71124F6F29685A5D00DC1234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71124F7229685A5D00DC1234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71124F7429685A5D00DC1234 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		71124F7729685A5D00DC1234 /* OutfitTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OutfitTracker.xcdatamodel; sourceTree = "<group>"; };
+		71124F7E2968697900DC1234 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		714953BB297015B50037A5E0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		714953BD297019490037A5E0 /* HomepageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewModel.swift; sourceTree = "<group>"; };
+		714953C029702C520037A5E0 /* WardrobeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeViewModel.swift; sourceTree = "<group>"; };
+		714953C229702C5F0037A5E0 /* WardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeView.swift; sourceTree = "<group>"; };
+		71546EE52973F7F8004DA83F /* LaundryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryDetailView.swift; sourceTree = "<group>"; };
+		71546EE72973F803004DA83F /* LaundryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryDetailViewModel.swift; sourceTree = "<group>"; };
+		7166960729707163000C82E9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7166960929707177000C82E9 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		7166960C2971106D000C82E9 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7166960E29711079000C82E9 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		7166961129711748000C82E9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7166961629713917000C82E9 /* ClothesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesModel.swift; sourceTree = "<group>"; };
+		7166961929713E24000C82E9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7166961E29719480000C82E9 /* ClothesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesDetailView.swift; sourceTree = "<group>"; };
+		7166962029719489000C82E9 /* ClothesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesDetailViewModel.swift; sourceTree = "<group>"; };
+		716696222971BF65000C82E9 /* LaundryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryModel.swift; sourceTree = "<group>"; };
+		718DDFC4297C3CEA003CE58A /* ClothesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesAPI.swift; sourceTree = "<group>"; };
+		718DDFC6297C3E82003CE58A /* APIMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMiddleware.swift; sourceTree = "<group>"; };
+		718DDFC8297C49B9003CE58A /* LaundryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAPI.swift; sourceTree = "<group>"; };
+		718DDFCB297D49A5003CE58A /* AddClothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClothView.swift; sourceTree = "<group>"; };
+		718DDFCD297D49AF003CE58A /* AddClothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClothViewModel.swift; sourceTree = "<group>"; };
+		71A3D031296ED22C00F611CF /* UserInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationView.swift; sourceTree = "<group>"; };
+		71A3D033296ED24400F611CF /* UserInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewModel.swift; sourceTree = "<group>"; };
+		816697D8297FC545004B098B /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71124F6529685A5800DC1234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71124F5F29685A5800DC1234 = {
+			isa = PBXGroup;
+			children = (
+				71124F6A29685A5800DC1234 /* DiLaundry */,
+				71124F6929685A5800DC1234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71124F6929685A5800DC1234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71124F6829685A5800DC1234 /* DiLaundry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71124F6A29685A5800DC1234 /* DiLaundry */ = {
+			isa = PBXGroup;
+			children = (
+				7166961829713E12000C82E9 /* Process */,
+				716696102971173B000C82E9 /* Model */,
+				71A3D02A296EC80A00F611CF /* View */,
+				71124F6B29685A5800DC1234 /* OutfitTrackerApp.swift */,
+				71124F7429685A5D00DC1234 /* Persistence.swift */,
+				71124F6F29685A5D00DC1234 /* Assets.xcassets */,
+				71124F7629685A5D00DC1234 /* DiLaundry.xcdatamodeld */,
+				71124F7129685A5D00DC1234 /* Preview Content */,
+			);
+			path = DiLaundry;
+			sourceTree = "<group>";
+		};
+		71124F7129685A5D00DC1234 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71124F7229685A5D00DC1234 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		714953BF29702C3C0037A5E0 /* WardrobeView */ = {
+			isa = PBXGroup;
+			children = (
+				714953C029702C520037A5E0 /* WardrobeViewModel.swift */,
+				714953C229702C5F0037A5E0 /* WardrobeView.swift */,
+			);
+			path = WardrobeView;
+			sourceTree = "<group>";
+		};
+		71546EE42973F7E6004DA83F /* LaundryDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				71546EE52973F7F8004DA83F /* LaundryDetailView.swift */,
+				71546EE72973F803004DA83F /* LaundryDetailViewModel.swift */,
+			);
+			path = LaundryDetailView;
+			sourceTree = "<group>";
+		};
+		7166960629707153000C82E9 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				7166960729707163000C82E9 /* ProfileView.swift */,
+				7166960929707177000C82E9 /* ProfileViewModel.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		7166960B29711050000C82E9 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				7166960C2971106D000C82E9 /* HistoryView.swift */,
+				7166960E29711079000C82E9 /* HistoryViewModel.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		716696102971173B000C82E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7166961129711748000C82E9 /* UserModel.swift */,
+				7166961629713917000C82E9 /* ClothesModel.swift */,
+				716696222971BF65000C82E9 /* LaundryModel.swift */,
+			);
+			name = Model;
+			path = View/Model;
+			sourceTree = "<group>";
+		};
+		716696132971263F000C82E9 /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				714953BB297015B50037A5E0 /* AppView.swift */,
+				816697D8297FC545004B098B /* AppViewModel.swift */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
+		7166961829713E12000C82E9 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				7166961929713E24000C82E9 /* ImagePicker.swift */,
+				718DDFC4297C3CEA003CE58A /* ClothesAPI.swift */,
+				718DDFC6297C3E82003CE58A /* APIMiddleware.swift */,
+				718DDFC8297C49B9003CE58A /* LaundryAPI.swift */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		7166961B297193CC000C82E9 /* ClothesDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7166961E29719480000C82E9 /* ClothesDetailView.swift */,
+				7166962029719489000C82E9 /* ClothesDetailViewModel.swift */,
+			);
+			path = ClothesDetailView;
+			sourceTree = "<group>";
+		};
+		718DDFCA297D4989003CE58A /* AddClothView */ = {
+			isa = PBXGroup;
+			children = (
+				718DDFCB297D49A5003CE58A /* AddClothView.swift */,
+				718DDFCD297D49AF003CE58A /* AddClothViewModel.swift */,
+			);
+			path = AddClothView;
+			sourceTree = "<group>";
+		};
+		71A3D02A296EC80A00F611CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				718DDFCA297D4989003CE58A /* AddClothView */,
+				71546EE42973F7E6004DA83F /* LaundryDetailView */,
+				7166961B297193CC000C82E9 /* ClothesDetailView */,
+				716696132971263F000C82E9 /* AppView */,
+				7166960B29711050000C82E9 /* HistoryView */,
+				7166960629707153000C82E9 /* ProfileView */,
+				714953BF29702C3C0037A5E0 /* WardrobeView */,
+				71A3D030296ED21900F611CF /* UserInformationView */,
+				71A3D02F296ECB4000F611CF /* HomepageView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71A3D02F296ECB4000F611CF /* HomepageView */ = {
+			isa = PBXGroup;
+			children = (
+				71124F7E2968697900DC1234 /* HomepageView.swift */,
+				714953BD297019490037A5E0 /* HomepageViewModel.swift */,
+			);
+			path = HomepageView;
+			sourceTree = "<group>";
+		};
+		71A3D030296ED21900F611CF /* UserInformationView */ = {
+			isa = PBXGroup;
+			children = (
+				71A3D031296ED22C00F611CF /* UserInformationView.swift */,
+				71A3D033296ED24400F611CF /* UserInformationViewModel.swift */,
+			);
+			path = UserInformationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71124F6729685A5800DC1234 /* DiLaundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71124F7B29685A5D00DC1234 /* Build configuration list for PBXNativeTarget "DiLaundry" */;
+			buildPhases = (
+				71124F6429685A5800DC1234 /* Sources */,
+				71124F6529685A5800DC1234 /* Frameworks */,
+				71124F6629685A5800DC1234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiLaundry;
+			productName = OutfitTracker;
+			productReference = 71124F6829685A5800DC1234 /* DiLaundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71124F6029685A5800DC1234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					71124F6729685A5800DC1234 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 71124F6329685A5800DC1234 /* Build configuration list for PBXProject "DiLaundry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71124F5F29685A5800DC1234;
+			productRefGroup = 71124F6929685A5800DC1234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71124F6729685A5800DC1234 /* DiLaundry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71124F6629685A5800DC1234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71124F7329685A5D00DC1234 /* Preview Assets.xcassets in Resources */,
+				71124F7029685A5D00DC1234 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71124F6429685A5800DC1234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71124F7529685A5D00DC1234 /* Persistence.swift in Sources */,
+				7166961F29719480000C82E9 /* ClothesDetailView.swift in Sources */,
+				816697D9297FC545004B098B /* AppViewModel.swift in Sources */,
+				718DDFC9297C49B9003CE58A /* LaundryAPI.swift in Sources */,
+				71124F7829685A5D00DC1234 /* DiLaundry.xcdatamodeld in Sources */,
+				716696232971BF65000C82E9 /* LaundryModel.swift in Sources */,
+				714953BE297019490037A5E0 /* HomepageViewModel.swift in Sources */,
+				7166960F29711079000C82E9 /* HistoryViewModel.swift in Sources */,
+				714953C129702C520037A5E0 /* WardrobeViewModel.swift in Sources */,
+				71A3D034296ED24400F611CF /* UserInformationViewModel.swift in Sources */,
+				7166961A29713E24000C82E9 /* ImagePicker.swift in Sources */,
+				71124F7F2968697900DC1234 /* HomepageView.swift in Sources */,
+				7166961229711748000C82E9 /* UserModel.swift in Sources */,
+				7166961729713917000C82E9 /* ClothesModel.swift in Sources */,
+				714953C329702C5F0037A5E0 /* WardrobeView.swift in Sources */,
+				7166960D2971106D000C82E9 /* HistoryView.swift in Sources */,
+				718DDFC5297C3CEA003CE58A /* ClothesAPI.swift in Sources */,
+				718DDFCE297D49AF003CE58A /* AddClothViewModel.swift in Sources */,
+				718DDFC7297C3E82003CE58A /* APIMiddleware.swift in Sources */,
+				7166960A29707177000C82E9 /* ProfileViewModel.swift in Sources */,
+				718DDFCC297D49A5003CE58A /* AddClothView.swift in Sources */,
+				71A3D032296ED22C00F611CF /* UserInformationView.swift in Sources */,
+				71546EE82973F803004DA83F /* LaundryDetailViewModel.swift in Sources */,
+				7166962129719489000C82E9 /* ClothesDetailViewModel.swift in Sources */,
+				714953BC297015B50037A5E0 /* AppView.swift in Sources */,
+				71546EE62973F7F8004DA83F /* LaundryDetailView.swift in Sources */,
+				7166960829707163000C82E9 /* ProfileView.swift in Sources */,
+				71124F6C29685A5800DC1234 /* OutfitTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71124F7929685A5D00DC1234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71124F7A29685A5D00DC1234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71124F7C29685A5D00DC1234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"DiLaundry/Preview Content\"";
+				DEVELOPMENT_TEAM = GLHQ3K4A8N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DiLaundry;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to take a picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michael.DiLaundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		71124F7D29685A5D00DC1234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"DiLaundry/Preview Content\"";
+				DEVELOPMENT_TEAM = GLHQ3K4A8N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DiLaundry;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to take a picture.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Michael.DiLaundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71124F6329685A5800DC1234 /* Build configuration list for PBXProject "DiLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71124F7929685A5D00DC1234 /* Debug */,
+				71124F7A29685A5D00DC1234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71124F7B29685A5D00DC1234 /* Build configuration list for PBXNativeTarget "DiLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71124F7C29685A5D00DC1234 /* Debug */,
+				71124F7D29685A5D00DC1234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71124F7629685A5D00DC1234 /* DiLaundry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71124F7729685A5D00DC1234 /* OutfitTracker.xcdatamodel */,
+			);
+			currentVersion = 71124F7729685A5D00DC1234 /* OutfitTracker.xcdatamodel */;
+			path = DiLaundry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71124F6029685A5800DC1234 /* Project object */;
+}
